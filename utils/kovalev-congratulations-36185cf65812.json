@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "kovalev-congratulations",
+  "private_key_id": "36185cf658121751e6ac1779d62916a0355c8d3b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCgfgmBPYKt5WeY\nCCTJnXZC2Fkiv32OSOOJNSqit/gSl3JryGUPGFqAA1AeBZa7EKkjU0XJzwnddM1W\nDmw9hYyDZciTTzkenqWCnn2xQg65anUpaFKgmNklUAJHruMvbWmdPz9DXfMDKTSI\n1chvla5d0RCT7qWn+Oka43M2I0spbvIeENANinZWnbFCRBMDUxpKLbLzd19/S0En\n/qFFTPpqi+cTjWpTQqn/8gDcIRTLEHyWQgvaVanArfWJxwNoXQi5CM5I9zXHAzA0\nx7Gqk8ZuiBRiojbCMz8OZEEtUQSahycfcDxLsuA67l7DmN/2CmLFz37q7GPoTivY\nCjgQAr/lAgMBAAECggEADHFZGU0EiajkfDP9bigoGAyf9IK2IEbkZSnbEVyD/iUB\nuPuDYkU4Fv6qwnkac4xaIKP/ICNOF35LwSVDHQ3yk+lbQJh+zDHukQ7qnciKTbPE\nO56b8VmIVE08sAQOFwo7ivZxWC67fX4/VXCFpqkLKLjhuSZib4BryiriLstTs3WI\nDXnh9GmNT3ZlbeqcvKdju6W86XJktCM48qltaQVXZ/vDmFp9gG9xCx3uVrZXaD1I\n7AAB4W4VeWHOqob11n3xVLkQpnzvf24BW/pfHUGL3G/ScTNP8Y6hzQTwBva8YayB\nQ5PgFaaklBzWNs7ZwuWwDluuyjVwqYC0GDUg9D9ZQQKBgQDY2iOteMLU42YerPIH\nxnKmgQxFtdosLxfgTfWk36vuTP2i3/ZwVlEl6nxvZpEgsaeNEO0G+O5hpmEsWG1L\nvYen5NSaBfBm88lbk0pp0OGgdev5TiTpSL448Rtb60e895vH4WjgBnX/IUjQex8S\nHsob5IhksvBfkgwgG5zL5FXQFQKBgQC9dzhjAdXNbzN/OFw9J5vCe7ekmmfWIH2w\nqlpnCXB0siEBVhks7ghdtrBK8J2Z+9mi0oYMan/frx6U4KeKwKkmc3J1rre0wh7V\n5Ckilcuv31VFtB4e01z5CDzNFCYIFPGSh2FpzBQbdPi5E6ua3XneLiBMqIe82GGB\nb+Iabd1UkQKBgBuK+WUbJYPsrhfPV55tMjq7wVdJVcCu6pVu0XhzgF7wIHcDg0WZ\ncQ0jz1JG8L/6UJG2SKTOEVkNzOHZCWjJVeWZRveZMYOiCz06ZAU0prO+xo4Pwthu\niNqqpRLzu1ThDkRA+RUbPPl+vMTeHoAqsPkB+eDwaV96KVgaqbur8MpRAoGAFw41\n715ezRP2GUobd1mli6IQc9hSQG1NvjzMqXMtmxW+DHKUt7HzlKvRgh0LoJxUHIsv\nwr0G+IpP12ALI0hUjRhJWma7diSVKgQMuWevFKTBtKy5aZjg3HETLQWBp0QdLW6J\n/RzXaYvvZF4vaLYAyXeleI6dje5q1xxtUDgEUfECgYAKTQJ2LaIa4fal5M+QuX0K\nzQv/TBObMNP6/8TTkrN90B8Sr7M9oJPz5KUyi9p0WUnrYmHtmnrXA0Hqlce3OeZX\n6gKQLesLMpvTJF5j1H/34tzIy5Cb0Ysss3iCMY2dHoU0tDbkBgqe54A68Di4+DX2\nfDy3BW8IBB+xkNREtk9u4Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "kovalev-congratulations@kovalev-congratulations.iam.gserviceaccount.com",
+  "client_id": "117742202911463940103",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kovalev-congratulations%40kovalev-congratulations.iam.gserviceaccount.com"
+}
