@@ -6,6 +6,7 @@ const transformRow = (row) => ({
   id: row.rowNumber,
   text: row.text || null,
   name: row.name || null,
+  color: row.color || null,
   created: row.created || null,
 });
 
@@ -44,7 +45,7 @@ congratulations.post("/api/congratulations", async (req, res) => {
     return res.status(400).send({ success: false, message: "Body not valid" });
   }
 
-  const { text, name } = body;
+  const { text, name, color } = body;
 
   const doc = await getLoadedDoc();
 
@@ -53,6 +54,7 @@ congratulations.post("/api/congratulations", async (req, res) => {
   const newRow = await sheet.addRow({
     text,
     name,
+    color,
     created: new Date(),
   });
 
@@ -72,7 +74,7 @@ congratulations.put("/api/congratulations/:id", async (req, res) => {
     return res.status(400).send({ success: false, message: "Body not valid" });
   }
 
-  const { text, name } = body;
+  const { text, name, color } = body;
 
   const doc = await getLoadedDoc();
 
@@ -87,6 +89,7 @@ congratulations.put("/api/congratulations/:id", async (req, res) => {
   if (row) {
     rows[rowIndex].text = text;
     rows[rowIndex].name = name;
+    rows[rowIndex].color = color;
 
     await rows[rowIndex].save();
 
