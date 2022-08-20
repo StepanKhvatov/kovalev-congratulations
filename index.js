@@ -4,6 +4,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const { limiter } = require("./utils/rateLimiter");
 const congratulations = require("./api/congratulations");
+const hoodie = require("./api/hoodie");
 
 const PORT = process.env.PORT || 8080;
 
@@ -20,6 +21,8 @@ app.use(helmet());
 app.use(limiter);
 
 app.use(congratulations);
+
+app.use(hoodie);
 
 app.listen(PORT, () => {
   console.log(`Sever is running on ${PORT}`);
